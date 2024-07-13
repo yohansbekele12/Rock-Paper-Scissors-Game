@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    align-items: center;
+    background-color: rgb(30, 145, 211);
+    text-align: center;
+    line-height: 20px;
+    border-radius: none;
+}
+
+.btn:hover{
+    background-color: rgb(113, 170, 207);
+}
+.btn:active{
+    background-color: rgb(197, 221, 236);
+}
+
+.playerDisplay{
+    margin-top: 20px;
+    margin-right: 130px;
+    font-size: 20px;
+}
+
+.computerDisplay{
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+
+.resultDisplay{
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 60px;
+    color: lightgreen;
+    
+}
+
+.greenText{
+    color: green;
+
+}
+
+.redText{
+    color: red;
+}
